@@ -42,6 +42,7 @@
             namebox.style.borderColor = 'rgba(0, 0, 0, 0.4)';
             namemsg.innerHTML = "Username must be greater than 4 characters";
             namemsg.style.color = 'rgb(231, 231, 231)';
+            check = 0;
             
         }
         else{
@@ -57,6 +58,7 @@
             passbox.style.borderColor = 'rgba(0, 0, 0, 0.4)';
             passmsg.innerHTML = "Password must contain alphabets, digits and special symbol";
             passmsg.style.color = 'rgb(231, 231, 231)';
+            check1 = 0;
             
         }
 
@@ -73,14 +75,14 @@
                 passbox.style.borderColor = 'yellow';
                 passmsg.innerHTML = "Medium Password";
                 passmsg.style.color = 'yellow';
-                
+                check1 = 0;
             }
 
             else{
                 passbox.style.borderColor = 'red';
                 passmsg.innerHTML = "Weak Password";
                 passmsg.style.color = 'red';
-                
+                check1 = 0;
             }
         }
     }
