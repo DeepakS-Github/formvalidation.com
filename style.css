@@ -117,6 +117,10 @@ button:hover{
     .box{
         width: 53%;
     }   
+    .box form .msg{
+        text-align: center;
+        width: 290px;
+    }
 }
 
 @media screen and (max-width: 660px) {
@@ -135,6 +139,11 @@ button:hover{
     }   
 
     .box form input{
+        width: 200px;
+    }
+
+    .box form .msg{
+        text-align: center;
         width: 200px;
     }
 }
